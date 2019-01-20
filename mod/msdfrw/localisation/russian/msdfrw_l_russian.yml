@@ -1,0 +1,58 @@
+﻿l_russian:
+
+# District
+msdfrw_matter_synthesis_district:0 "Район синтеза материи"
+msdfrw_matter_synthesis_district_desc:0 "Устройства удержания плазмы длинною в тысячи километров и высокоточные сепарационные заводы, которые используются в процессе синтеза минералов."
+msdfrw_matter_synthesis_district_plural:0 "Районы синтеза материи"
+
+# Building
+building_plasma_recirculation_node:0 "Узел рециркуляции плазмы"
+building_plasma_recirculation_node_desc:0 "Место, где происходят процессы восстановления и возвращения плазмы в главную цепь."
+
+# Transmuting Category
+msdfrw_planet_transmutators:0 "Трансмутационная деятельность"
+mod_msdfrw_planet_transmutators_minerals_produces_mult:0 "£minerals£ Минералы от категории £job_msdfrw_transmutator£ Трансмутаторы"
+mod_msdfrw_planet_transmutators_physics_research_produces_mult:0 "£physics£ Физические исследования от категории £job_msdfrw_transmutator£ Трансмутаторы"
+mod_msdfrw_planet_transmutators_produces_mult:0 "£job_msdfrw_transmutator£ Трансмутаторы: производство"
+
+# Transmutator Job
+job_msdfrw_transmutator:0 "Трансмутатор"
+job_msdfrw_transmutator_plural:0 "Трансмутаторы"
+job_msdfrw_transmutator_desc:0 "Прорыв в физике частиц даёт нам эффективные способы создания ценных металлов из плазмы."
+
+msdfrw_job_transmutator_effect_desc:0 "£job_msdfrw_transmutator£ Трансмутаторы превращают £energy£ §YЭнергокредиты§! в £minerals£ §YМинералы§! и £physics£ §YФизические исследования§!"
+mod_job_msdfrw_transmutator_add:0 "Деятельность: Трансмутатор"
+
+# Transmuting Drone Job
+job_msdfrw_transmuting_drone:0 "Дрон-трансмутатор"
+job_msdfrw_transmuting_drone_plural:0 "Дроны-трансмутаторы"
+job_msdfrw_transmuting_drone_desc:0 "Прорыв в физике частиц даёт нам эффективные способы создания ценных металлов из плазмы."
+
+msdfrw_job_transmuting_drone_effect_desc:0 "£job_msdfrw_transmutator£ Дроны-трансмутаторы превращают £energy£ §YЭнергокредиты§! в £minerals£ §YМинералы§! и £physics£ §YФизические исследования§!"
+mod_job_msdfrw_transmuting_drone_add:0 "Деятельность: Дрон-трансмутатор"
+
+# Colony type
+msdfrw_col_synthesis:0 "Трансмутационный мир"
+msdfrw_col_synthesis_desc:0 "Эта секция - центр индустрии синтеза материи."
+
+msdfrw_ringworld_col_rural:0 "Деревенский мир"
+msdfrw_ringworld_col_rural_desc:0 "Характер производства на этой секции устраняет необходимость в крупных городских центрах."
+
+msdfrw_ringworld_col_rural_gestalt:0 "Периферийный мир"
+msdfrw_ringworld_col_rural_gestalt_desc:0 "Эта секция - малонаселенный мир на периферии коллектива."
+
+# Technologies
+tech_msdfrw_amplifying_chains:0 "Усиляющие цепи"
+tech_msdfrw_amplifying_chains_desc:0 "Новые источники энергии позволяют создавать сверхмощные установки по разогреву огромного количества плазмы до недоступных до этого температур."
+
+tech_msdfrw_entwined_stellarators:0 "Сплетение стеллараторов"
+tech_msdfrw_entwined_stellarators_desc:0 "Улучшенные техники компьютерного моделирования позволяют размещать нагревательные установки более компактно."
+
+tech_msdfrw_improved_magnetic_diffusion:0 "Улучшенная магнитная диффузия"
+tech_msdfrw_improved_magnetic_diffusion_desc:0 "Более продвинутые установки для извлечения ценных металлов из плазменного потока."
+ 
+tech_msdfrw_self_sustaining_plasma_confinement:0 "Самоподдерживающее удержание плазмы"
+tech_msdfrw_self_sustaining_plasma_confinement_desc:0 "Единожды хорошо расположенный в пространстве плазменный поток позволяет тратить меньше энергии на его удержание."
+
+tech_msdfrw_atomic_separation:0 "Атомная сепарация"
+tech_msdfrw_atomic_separation_desc:0 "Методы локализации и прямого переноса нужных нам атомов из хаотичного облака раскаленной материи."

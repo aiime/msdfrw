@@ -1,0 +1,3 @@
+msdfrw_planet_transmutators = {
+	parent = planet_jobs
+}

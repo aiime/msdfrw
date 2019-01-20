@@ -1,0 +1,5 @@
+on_district_complete = {
+	events = {
+		msdfrw.1
+	}
+}

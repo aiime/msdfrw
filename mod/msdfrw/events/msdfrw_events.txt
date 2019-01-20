@@ -1,0 +1,20 @@
+namespace = msdfrw
+
+planet_event = {
+	id = msdfrw.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		owner = {
+			NOT = { has_country_flag = msdfrw_first_matter_synthesis_district_built }
+		}
+		has_district = msdfrw_matter_synthesis_district
+	}
+
+	immediate = { 
+		owner = {
+			set_country_flag = msdfrw_first_matter_synthesis_district_built
+		}
+	}
+}

@@ -1,0 +1,58 @@
+﻿l_english:
+
+# District
+msdfrw_matter_synthesis_district:0 "Matter Synthesis District"
+msdfrw_matter_synthesis_district_desc:0 "Giant thousands kilometers long magnetic confinement devices and high-precision separation factories that are used in process of mineral synthesis."
+msdfrw_matter_synthesis_district_plural:0 "Matter Synthesis Districts"
+
+# Building
+building_plasma_recirculation_node:0 "Plasma Recirculation Node"
+building_plasma_recirculation_node_desc:0 "The place where processes of plasma recovery and its return to the main circuit occur."
+
+# Transmuting Category
+msdfrw_planet_transmutators:0 "Transmutator Jobs"
+mod_msdfrw_planet_transmutators_minerals_produces_mult:0 "£minerals£ Minerals from £job_msdfrw_transmutator£ Transmutators"
+mod_msdfrw_planet_transmutators_physics_research_produces_mult:0 "£physics£ Physics Research from £job_msdfrw_transmutator£ Transmutators"
+mod_msdfrw_planet_transmutators_produces_mult:0 "£job_msdfrw_transmutator£ Transmutators Output"
+
+# Transmutator Job
+job_msdfrw_transmutator:0 "Transmutator"
+job_msdfrw_transmutator_plural:0 "Transmutators"
+job_msdfrw_transmutator_desc:0 "Recent breakthrough in particle physics gives us efficient ways of creating valuable metals out of plasma."
+
+msdfrw_job_transmutator_effect_desc:0 "£job_msdfrw_transmutator£ Transmutators turn £energy£ §YEnergy Credits§! into £minerals£ §YMinerals§! and £physics£ §YPhysics Research§!"
+mod_job_msdfrw_transmutator_add:0 "Transmutator Jobs"
+
+# Transmuting Drone Job
+job_msdfrw_transmuting_drone:0 "Transmuting Drone"
+job_msdfrw_transmuting_drone_plural:0 "Transmuting Drones"
+job_msdfrw_transmuting_drone_desc:0 "Recent breakthrough in particle physics gives us efficient ways of creating valuable metals out of plasma."
+
+msdfrw_job_transmuting_drone_effect_desc:0 "£job_msdfrw_transmutator£ Transmuting Drones turn £energy£ §YEnergy Credits§! into £minerals£ §YMinerals§! and £physics£ §YPhysics Research§!"
+mod_job_msdfrw_transmuting_drone_add:0 "Transmuting Drone Jobs"
+
+# Colony type
+msdfrw_col_synthesis:0 "Transmutation Section"
+msdfrw_col_synthesis_desc:0 "This section is a center of matter synthesis industry."
+
+msdfrw_ringworld_col_rural:0 "Rural World"
+msdfrw_ringworld_col_rural_desc:0 "The nature of this section's production dispenses with the need for major urban centers."
+
+msdfrw_ringworld_col_rural_gestalt:0 "Fringe World"
+msdfrw_ringworld_col_rural_gestalt_desc:0 "This section is a sparsely populated world on the fringes of the collective."
+
+# Technologies
+tech_msdfrw_amplifying_chains:0 "Amplifying Chains"
+tech_msdfrw_amplifying_chains_desc:0 "New energy sources make it possible to create massive installations for heating a huge amount of plasma to temperatures hitherto unavailable."
+
+tech_msdfrw_entwined_stellarators:0 "Entwined Stellarators"
+tech_msdfrw_entwined_stellarators_desc:0 "Improved computer modeling techniques has allowed us to place heating systems more compactly."
+
+tech_msdfrw_improved_magnetic_diffusion:0 "Improved Magnetic Diffusion"
+tech_msdfrw_improved_magnetic_diffusion_desc:0 "More advanced installations for extracting valuable metals from a plasma stream."
+ 
+tech_msdfrw_self_sustaining_plasma_confinement:0 "Self-Sustaining Plasma Confinement"
+tech_msdfrw_self_sustaining_plasma_confinement_desc:0 "A well-located stream requires less energy to hold it."
+
+tech_msdfrw_atomic_separation:0 "Atomic Separation"
+tech_msdfrw_atomic_separation_desc:0 "Methods of localization and direct transportation of atoms we need from a chaotic cloud of heated matter."

@@ -1,0 +1,174 @@
+tech_msdfrw_amplifying_chains = {
+	area = physics
+	cost = @tier4cost3
+	tier = 4
+	category = { particles }
+	ai_update_type = all
+	prerequisites = { "tech_zero_point_power" }
+	weight = @tier4weight3
+	
+	modifier = {
+		msdfrw_planet_transmutators_minerals_produces_mult = 0.10
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0
+			NOT = { has_country_flag = msdfrw_first_matter_synthesis_district_built }
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+		
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
+tech_msdfrw_entwined_stellarators = {
+	area = physics
+	cost = @tier5cost1
+	tier = 5
+	category = { particles }
+	ai_update_type = all
+	prerequisites = { "tech_msdfrw_amplifying_chains" }
+	weight = @tier5weight1
+	
+	modifier = {
+		msdfrw_planet_transmutators_minerals_produces_mult = 0.10
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}			
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
+tech_msdfrw_improved_magnetic_diffusion = {
+	area = physics
+	cost = @tier5cost2
+	tier = 5
+	category = { particles }
+	ai_update_type = all
+	prerequisites = { "tech_msdfrw_entwined_stellarators" }
+	weight = @tier5weight2
+	
+	modifier = {
+		msdfrw_planet_transmutators_minerals_produces_mult = 0.10
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}			
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
+tech_msdfrw_self_sustaining_plasma_confinement = {
+	area = physics
+	cost = @tier5cost3
+	tier = 5
+	category = { particles }
+	ai_update_type = all
+	prerequisites = { "tech_msdfrw_improved_magnetic_diffusion" }
+	weight = @tier5weight3
+	
+	modifier = {
+		msdfrw_planet_transmutators_minerals_produces_mult = 0.10
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}			
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}
+
+tech_msdfrw_atomic_separation = {
+	area = physics
+	cost = 56000
+	tier = 5
+	category = { particles }
+	ai_update_type = all
+	prerequisites = { "tech_msdfrw_self_sustaining_plasma_confinement" }
+	weight = @tier5weight3
+	
+	modifier = {
+		msdfrw_planet_transmutators_minerals_produces_mult = 0.10
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}			
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_particles"
+			}
+		}
+	}
+}

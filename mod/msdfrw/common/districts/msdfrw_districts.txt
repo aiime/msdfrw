@@ -1,0 +1,151 @@
+msdfrw_matter_synthesis_district = {
+	base_buildtime = 240
+	icon = msdfrw_district_compressor
+	
+	is_capped_by_modifier = no
+	
+	show_on_uncolonized = {
+		is_planet_class = pc_ringworld_habitable
+	}
+	
+	potential = {
+		is_planet_class = pc_ringworld_habitable
+	}
+	
+	allow = {
+		NOT = { has_modifier = resort_colony }
+	}	
+	
+	resources = {
+		category = planet_districts
+		cost = {
+			alloys = 240
+		}
+		upkeep = {
+			energy = 1	
+		}
+	}
+	
+	planet_modifier = {
+		planet_housing_add = 2
+	}	
+	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { 
+				has_valid_civic = civic_agrarian_idyll
+			}
+		}
+		modifier = {
+			planet_housing_add = 1
+		}
+	}		
+		
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { 
+				OR = {
+					is_hive_empire = yes
+					is_machine_empire = yes
+				}
+			}
+		}
+		modifier = {
+			job_msdfrw_transmuting_drone_add = 2
+		}
+	}
+		
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { 
+				is_gestalt = no
+				is_fallen_empire_spiritualist = no
+			}
+		}
+		modifier = {
+			job_msdfrw_transmutator_add = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_fallen_empire_spiritualist = yes }
+		}
+		modifier = {
+			job_msdfrw_transmutator_add = 2
+		}
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = msdfrw_job_transmuting_drone_effect_desc
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = msdfrw_job_transmutator_effect_desc
+	}
+	
+	prerequisites = {
+		tech_power_plant_1
+	}
+	
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 3
+			owner = {
+				has_monthly_income = {
+					resource = minerals
+					value < 0
+				}
+			}
+		}
+
+		modifier = {
+			factor = 2
+			free_housing < 0
+		}
+
+		modifier = {
+			factor = 3
+			any_owned_pop = {
+				AND = {
+					is_pop_category = specialist
+					is_unemployed = yes
+				}
+			}
+		}
+
+		# No one to work it anyway
+		modifier = {
+			factor = 0
+			free_housing > 0
+			NOT = {
+				any_owned_pop = { 
+					AND = {
+						is_pop_category = specialist
+						is_unemployed = yes
+					}		
+				}
+			}
+		}
+	}
+
+	ai_resource_production = {
+		minerals = 1
+		trigger = {
+			always = yes
+		}
+	}
+}
