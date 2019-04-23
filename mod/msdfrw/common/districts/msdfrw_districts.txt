@@ -19,7 +19,7 @@ msdfrw_matter_synthesis_district = {
 	resources = {
 		category = planet_districts
 		cost = {
-			alloys = 240
+			alloys = 200
 		}
 		upkeep = {
 			energy = 1	

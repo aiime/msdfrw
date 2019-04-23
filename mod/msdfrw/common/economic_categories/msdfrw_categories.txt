@@ -1,3 +1,6 @@
 msdfrw_planet_transmutators = {
 	parent = planet_jobs
+	generate_mult_modifiers = {
+		produces
+	}
 }

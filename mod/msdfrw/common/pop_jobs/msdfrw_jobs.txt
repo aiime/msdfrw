@@ -11,11 +11,11 @@ msdfrw_transmutator = {
 	resources = {
 		category = msdfrw_planet_transmutators
 		produces = {
-			minerals = 2
+			minerals = 3
 			physics_research = 1
 		}
 		upkeep = {
-			energy = 2
+			energy = 3
 		}
 	}
 	
@@ -49,11 +49,11 @@ msdfrw_transmuting_drone = {
 	resources = {
 		category = msdfrw_planet_transmutators
 		produces = {
-			minerals = 2
+			minerals = 3
 			physics_research = 1
 		}
 		upkeep = {
-			energy = 2
+			energy = 3
 		}		
 	}
 	
