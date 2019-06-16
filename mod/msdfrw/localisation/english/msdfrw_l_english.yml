@@ -1,9 +1,9 @@
 ﻿l_english:
 
 # District
-msdfrw_matter_synthesis_district:0 "Matter Synthesis District"
+msdfrw_matter_synthesis_district:0 "Matter Synthesis Segment"
 msdfrw_matter_synthesis_district_desc:0 "Giant thousands kilometers long magnetic confinement devices and high-precision separation factories that are used in process of mineral synthesis."
-msdfrw_matter_synthesis_district_plural:0 "Matter Synthesis Districts"
+msdfrw_matter_synthesis_district_plural:0 "Matter Synthesis Segments"
 
 # Building
 building_plasma_recirculation_node:0 "Plasma Recirculation Node"

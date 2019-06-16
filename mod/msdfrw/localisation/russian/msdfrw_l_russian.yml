@@ -1,9 +1,9 @@
 ﻿l_russian:
 
 # District
-msdfrw_matter_synthesis_district:0 "Район синтеза материи"
+msdfrw_matter_synthesis_district:0 "Сегмент синтеза материи"
 msdfrw_matter_synthesis_district_desc:0 "Устройства удержания плазмы длинною в тысячи километров и высокоточные сепарационные заводы, которые используются в процессе синтеза минералов."
-msdfrw_matter_synthesis_district_plural:0 "Районы синтеза материи"
+msdfrw_matter_synthesis_district_plural:0 "Сегменты синтеза материи"
 
 # Building
 building_plasma_recirculation_node:0 "Узел рециркуляции плазмы"
