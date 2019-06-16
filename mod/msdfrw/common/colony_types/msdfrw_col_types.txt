@@ -1,6 +1,6 @@
 # Matter Synthesis World
 msdfrw_col_synthesis = {
-	icon = 1
+	icon = 7
 	
 	potential = {
 		exists = owner

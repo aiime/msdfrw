@@ -1,4 +1,4 @@
-name="Matter Synthesis District for Ringworld"
+name="Matter Synthesis Segment for Ringworld"
 path="mod/msdfrw"
 tags={
 	"Gameplay"
