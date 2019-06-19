@@ -24,7 +24,7 @@ msdfrw_matter_synthesis_district = {
 			volatile_motes = 100
 		}
 		upkeep = {
-			energy = 10
+			energy = 20
 			volatile_motes = 2
 		}
 	}
